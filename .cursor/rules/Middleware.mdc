@@ -1,11 +1,6 @@
 ---
-description: 
+description: Next.js 16 renamed middleware to proxy (see app/proxy or docs)
 alwaysApply: true
 ---
 
----
-description: middelware.ts
-alwaysApply: false
----
-
-Middleware.ts has now changed to proxy.ts in Next.js 16 - docs:  https://nextjs.org/docs/app/getting-started/proxy
+`middleware.ts` is now `proxy.ts` in Next.js 16. Documentation: https://nextjs.org/docs/app/getting-started/proxy
