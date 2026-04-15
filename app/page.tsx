@@ -7,7 +7,7 @@ import { ArrowRight, PenLine, Share2, Users } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-zinc-50 dark:bg-black font-sans">
+    <div className="flex flex-col min-h-screen bg-zinc-50 dark:bg-black">
       <main className="flex-1">
         {/* Hero Section — full viewport */}
         <section className="relative isolate min-h-[100dvh] w-full overflow-hidden">

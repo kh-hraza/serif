@@ -49,6 +49,10 @@
 }
 
 :root {
+  /* System stacks until Next.js font classes set --font-sans / --font-mono on <html> */
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-mono:
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.148 0.004 228.8);
   --popover: oklch(1 0 0);
@@ -125,6 +129,6 @@
     @apply bg-background text-foreground;
   }
   html {
-    @apply font-mono;
+    @apply font-sans;
   }
 }

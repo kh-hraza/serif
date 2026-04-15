@@ -32,7 +32,15 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, inter.variable, "font-mono", jetbrainsMono.variable)}
+      className={cn(
+        "h-full",
+        "antialiased",
+        "font-sans",
+        geistSans.variable,
+        geistMono.variable,
+        inter.variable,
+        jetbrainsMono.variable
+      )}
     >
       <body className="min-h-full flex flex-col">
         <Providers>{children}</Providers>

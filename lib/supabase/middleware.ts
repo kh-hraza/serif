@@ -42,9 +42,7 @@ export async function updateSession(request: NextRequest) {
 
   const path = request.nextUrl.pathname
   const isPublicRoute =
-    path === '/' ||
-    path.startsWith('/login') ||
-    path.startsWith('/auth')
+    path === '/' || path.startsWith('/auth')
 
   if (!user && !isPublicRoute) {
     // no user, potentially respond by redirecting the user to the login page
