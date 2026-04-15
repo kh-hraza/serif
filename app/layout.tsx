@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Serif. | Publish your ideas",
-  description: "A minimalist blogging platform",
+  title: "Serif",
+  description: "A minimalist blogging platform designed for writers who care about typography and reading experience.",
 };
 
 export default function RootLayout({
